@@ -18,6 +18,7 @@ $(function() {
     fontSize: "50px"
   }, 1000, function() {
     alert("Testing...");
+    alert('Testing again!');
   });
 
   
