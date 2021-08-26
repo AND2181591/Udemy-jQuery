@@ -16,11 +16,11 @@ $(function() {
 
   $("p").animate({
     fontSize: "50px"
-  }, 1000, message);
+  }, 1000, function() {
+    alert("Testing...");
+  });
 
-  function message() {
-    alert("The paragraphs are huge!");
-  }
+  
 });
 
 
